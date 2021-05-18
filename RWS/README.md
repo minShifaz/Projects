@@ -4,19 +4,19 @@ Voor het RWS project hebben wij de opdracht gekregen om een Dashboard te creëre
 
 
 
-Het Dashboard werd gemaakt in Redash, de server is helaas niet meer running maar hier zijn wat screenshots:
+Het Dashboard werd gemaakt in [Redash](https://redash.io/), de server is helaas niet meer running maar hier zijn wat screenshots:
 
-[Redash Dashboard Groei](RWS/Dashboard/Groei EV's.png)
+[Redash Dashboard Groei](Dashboard/Groei EV's.png)
 
-[Redash Dropdown](RWS/Dashboard/Dropdown benaming.png)
+[Redash Dropdown](Dashboard/Dropdown benaming.png)
 
-[Redash Voorpagina grafieken](RWS/Dashboard/Dashboard grafieken.png)
+[Redash Voorpagina grafieken](Dashboard/Dashboard grafieken.png)
 
 
 
 Om de grafieken en dropdowns te laten werken zaten er SQL queries in de backend:
 
-[De SQL queries voor het Dashboard](RWS/queries)
+[De SQL queries voor het Dashboard](queries)
 
 
 
@@ -70,4 +70,4 @@ Om de data te verkrijgen werd er gebruik gemaakt van [EvCompare](https://evcompa
 
 
 
-Uiteindelijk is het gebleken dat de RDW database niet consistent is bijgehouden. Veel auto's hadden een verkeerde benaming of zijn verkeerd gemarkeerd. Hierdoor was het eindresultaat niet 100% betrouwbaar. 
+Uiteindelijk is het gebleken dat de opensource RDW database niet consistent is bijgehouden. Veel auto's hadden een verkeerde benaming of zijn verkeerd gemarkeerd. Hierdoor was het eindresultaat niet 100% betrouwbaar. 
